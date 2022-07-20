@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 /* ...common style end... */
 
@@ -89,6 +89,7 @@ font-size: 1.6rem;
     }
     
 }
+
 @media only screen and (max-width: 500px) {
     .header{
     flex-direction: column;
@@ -119,7 +120,6 @@ font-size: 1.6rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-
     }
     .header-btn{
         padding: 7px 15px;
@@ -137,7 +137,6 @@ font-size: 1.6rem;
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 7rem;
-
 }
 .menu{
     width: 280px;
@@ -163,7 +162,6 @@ text-align: center;
 border-radius: 10px;
 padding-top: 18px;
 font-size: 1.5rem;
-
 }
 .blog{
     background-color: red !important;
@@ -264,6 +262,7 @@ padding-left: 4.2rem;
         }
 
 }
+
 @media only screen and (max-width: 800px) {
     .main-container{
         flex-direction: column;
@@ -310,6 +309,7 @@ padding-left: 4.2rem;
         }
 
 }
+
 @media only screen and (max-width: 500px) {
     .main-container{
         flex-direction: column;
@@ -414,6 +414,7 @@ cursor: pointer;
         gap: 1em;
     }
 }
+
 @media only screen and (max-width: 800px) {
     .footer-menu{
         width: 80%;
@@ -424,6 +425,7 @@ cursor: pointer;
         gap: 1em;
     }
 }
+
 @media only screen and (max-width: 500px) {
     .footer-menu{
         width: 50%;
@@ -437,4 +439,5 @@ cursor: pointer;
         margin-top: 2rem; 
     }
 }
+
 /* footer section end  */
