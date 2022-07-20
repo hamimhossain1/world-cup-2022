@@ -222,6 +222,19 @@ display: inline-block;
 .card-info{
     padding: 1.2em;
 }
+.view-all{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    display: none;
+}
+.view-all a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #c0392b;
+    padding: 1em 2.5em;
+    border-radius: 5px;
+}
 
 @media only screen and (max-width: 1100px) {
     .main-container{
@@ -261,6 +274,11 @@ display: inline-block;
         }
         .card-dis-none{
             display: none;
+        }
+        .view-all{
+            display: flex;
+            justify-content: center;
+            padding-top: 5em;
         }
 
 }
@@ -302,6 +320,11 @@ display: inline-block;
         }
         .card-dis-none{
             display: none;
+        }
+        .view-all{
+            display: flex;
+            justify-content: center;
+            padding-top: 5em;
         }
 
 }
@@ -346,6 +369,9 @@ display: inline-block;
         }
         .card-dis-none{
             display: block;
+        }
+        .view-all{
+            display: none;
         }
 
 }
