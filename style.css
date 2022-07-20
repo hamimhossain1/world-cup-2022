@@ -395,7 +395,7 @@ display: inline-block;
 }
 .footer-menu{
     width: 55%;
-    padding: 5em 0 7em 0;
+    padding: 5em 0 3em 0;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -405,10 +405,48 @@ display: inline-block;
     color: rgb(221, 192, 192);
     font-size: 1.2em;
 }
+.social-icons{
+display: flex;
+justify-content: center;
+gap: 1.5em;
+padding-bottom: 4em;
+font-size: 1.5em;
+cursor: pointer;
+}
+.social-icons .fa-brands{
+    color: #fff;
+}
 
-
-
-
+@media only screen and (max-width: 1100px) {
+    .footer-menu{
+        width: 80%;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .footer-menu{
+        width: 80%;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .footer-menu{
+        width: 50%;
+        font-size: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5em;
+    }
+}
 /* footer section end  */
 
 
