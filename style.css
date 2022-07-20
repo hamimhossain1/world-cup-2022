@@ -182,6 +182,42 @@ font-size: 1.5rem;
 .blog{
     background-color: red !important;
 }
+.cards{
+    width: 75%;
+    margin-left: 10px;
+}
+.card{
+    width: 25%;
+    border: 1px solid rgb(245, 234, 234);
+    border-radius: 7px;
+}
+.card-img img{
+width: 100%;
+}
+.card-info a{
+text-decoration: none;
+color: black;
+border: 1px solid black;
+padding: 8px 25px;
+font-size: 1rem;
+font-weight: 600;
+border-radius: 10px;
+display: inline-block;
+}
+.card-info h3{
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 1em 0 1em 0;
+}
+.card-comment{
+    display: flex;
+    gap: 2em;
+    color: gray;
+    font-size: 1.2rem;
+}
+.card-info{
+    padding: 1.2em;
+}
 
 
 
