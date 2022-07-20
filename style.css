@@ -15,7 +15,6 @@ body{
    padding-top: 3em;
 }
 .header{
-    /* height: 85vh; */
     width: 85%;
     background-color: aquamarine;
     margin: 0 auto;
@@ -26,6 +25,7 @@ body{
 }
 .header-info{
     width: 50%;
+    padding-bottom: 1.5em;
 }
 .header-info .header-text{
     width: 100%;
@@ -39,18 +39,36 @@ body{
     font-size: 1.5rem;
     padding-bottom: 1.5em;
 }
-.header-text a{
+.header-btn{
+    border: 1px solid #c0392b;
     font-size: 1.5rem;
     padding: .8em 2em;
-    background-color: rgb(158, 74, 158);
-    color: white;
+    color: #c0392b;
     border-radius: 10px;
     text-decoration: none;
-    transform: rotate(360deg);
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    
 }
-.header-text a:hover{
-    background-color: burlywood;
-    color: green;
+.header-btn:after{
+    background-color: #c0392b;
+    content: ''; 
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+.header-btn:hover{
+    color: #fff;
+    /* z-index: -1; */
+}
+.header-btn:hover:after{
+    width: 100%;
+    /* z-index: -1; */
 }
 .header-img{
     width: 50%;
@@ -60,113 +78,135 @@ body{
     height: 100%;
 }
 
+@media only screen and (max-width: 1100px) {
+    .header-text h1{
+        font-size: 3rem;
+    }
+    .header-text p{
+        font-size: 1rem;
+    }
+    .header-btn{
+        padding: 10px 15px;
+    }
+    
+}
 
-/* ...header start ... */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #header{
-    display: flex;
+@media only screen and (max-width: 800px) {
+    .header-text h1{
+        font-size: 2rem;
+    }
+    .header-text p{
+        font-size: 10px;
+    }
+    .header-btn{
+        padding: 7px 15px;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .header{
+    flex-direction: column;
     justify-content: center;
-    padding-top: 5em;
-}
-.header{
-    background-color: #c5d5cb;
-    width: 85%;
-    height: 85vh;
-    border-radius: 2em;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.header_text{
-    width: 45%;
-    height: 100%;
-    margin: 4em 0 0 5.5em;
-    
-}
-.header_text h1{
-    font-size: 6rem;
-    color: green;
-}
-.header_text p{
-    font-size: 1.4rem;
-    margin: 10px 0 2em 0;
+    }
+    .header-info{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    .header-info .header-text{
+        padding: 0 0 0 0;
+    }
+    .header-info{
+        padding: 2em;
+    }
+    .header-img{
+        width: 50%;
+        height: 50%;
+        text-align: center;
+    }
+    .header-text h1{
+        font-size: 2rem;
+    }
+    .header-text p{
+        font-size: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
-}
-.header_text a{
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: white;
-    background-color: salmon;
-    padding: .8em 1.9em;
-    border-radius: 9px;
-}
-.header_img{
-    width: 45%;
-    height: 100%;
-    padding: 2em 1.5em 0 1em;
+    }
+    .header-btn{
+        padding: 7px 15px;
+    }
     
-}
-.header_img img{
-    width: 100%;
-    height: 100%;
 }
 
-@media only screen and (max-width: 1100px){
-    
-} */
+/* ...header end ... */
+
+/* menu & article start  */
+
+
+
+
+
+
+
+/* menu & article end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
