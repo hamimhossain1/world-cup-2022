@@ -15,7 +15,7 @@ body{
    padding-top: 3em;
 }
 .header{
-    width: 85%;
+    width: 60%;
     background-color: aquamarine;
     margin: 0 auto;
     border-radius: 2em;
@@ -33,10 +33,10 @@ body{
     padding: 0 0 0 3em;
 }
 .header-text h1{
-    font-size: 6rem;
+    font-size: 4.5rem;
 }
 .header-text p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-bottom: 1.5em;
 }
 .header-btn{
@@ -146,7 +146,7 @@ body{
 /* main section start  */
 
 .main-container{
-    width: 85%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -154,7 +154,7 @@ body{
 
 }
 .menu{
-    width: 370px;
+    width: 280px;
     height: 350px;
     background-color: black;
     border-radius: 12px;
@@ -184,7 +184,7 @@ font-size: 1.5rem;
 }
 .cards{
     width: 75%;
-    margin-left: 10px;
+    margin-left: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -192,35 +192,30 @@ font-size: 1.5rem;
 }
 .card{
     width: 30%;
+    height: 20%;
     border: 1px solid rgb(245, 234, 234);
     border-radius: 7px;
+}
+.card-img{
+    display: flex;
+    align-items: center;
 }
 .card-img img{
 width: 100%;
 }
-.card-info a{
-text-decoration: none;
-color: black;
-border: 1px solid black;
-padding: 8px 25px;
-font-size: 1rem;
-font-weight: 600;
-border-radius: 10px;
-display: inline-block;
+.card-info h3{
+text-align: center;
+}
+.card-comment p{
+padding-left: 4.2rem;
 }
 .card-info h3{
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 500;
-    padding: 1em 0 1em 0;
+    padding: 1em 0 .5em 0;
 }
-.card-comment{
-    display: flex;
-    gap: 2em;
-    color: gray;
-    font-size: 1.2rem;
-}
-.card-info{
-    padding: 1.2em;
+.card-info p{
+    font-size: 11px;
 }
 .view-all{
     display: flex;
@@ -382,35 +377,41 @@ display: inline-block;
 /* footer section end  */
 .footer{
     background-color: black;
+    width: 60%;
+    margin: 0 auto;
 }
 .goal{
     display: flex;
     justify-content: center;
-    margin-top: 8rem;
-    padding: 10rem 0 4rem 0;
+    margin-top: 5rem;
+    padding: 5rem 0 2rem 0;
 }
 .goal h1{
     color: #fff;
-    font-size: 3rem;
+    font-size: 1.7rem;
 }
 .footer-menu{
     width: 55%;
-    padding: 5em 0 3em 0;
+    padding: 2.5em 0 3em 0;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     
 }
+hr{
+    width: 85%;
+    margin: 0 auto;
+}
 .footer-menu p{
     color: rgb(221, 192, 192);
-    font-size: 1.2em;
+    font-size: 10px;
 }
 .social-icons{
 display: flex;
 justify-content: center;
 gap: 1.5em;
-padding-bottom: 4em;
-font-size: 1.5em;
+padding-bottom: 2em;
+font-size: 1rem;
 cursor: pointer;
 }
 .social-icons .fa-brands{
