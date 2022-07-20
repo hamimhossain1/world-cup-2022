@@ -143,7 +143,7 @@ body{
 
 /* ...header end ... */
 
-/* menu & article start  */
+/* main section start  */
 
 .main-container{
     width: 85%;
@@ -375,13 +375,43 @@ display: inline-block;
         }
 
 }
+/* main section end  */
+
+
+/* footer section end  */
+.footer{
+    background-color: black;
+}
+.goal{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    padding: 10rem 0 4rem 0;
+
+}
+.goal h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.footer-menu{
+    width: 55%;
+    padding: 5em 0 7em 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.footer-menu p{
+    color: rgb(221, 192, 192);
+    font-size: 1.2em;
+}
 
 
 
 
+/* footer section end  */
 
 
-/* menu & article end  */
 
 
 
