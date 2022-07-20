@@ -12,7 +12,17 @@ body{
 
 
 /* ...header start... */
-
+#header{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+.header{
+    background-color: #c5d5cb;
+    width: 85%;
+    height: 85vh;
+    border-radius: 2em;
+}
 /* ...header end...*/
 
 
